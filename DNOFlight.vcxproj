@@ -28,7 +28,7 @@
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
     <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
     <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
-    <ProjectGuid>{DA3FD262-9379-41E8-A540-4C63700ADB6C}</ProjectGuid>
+    <ProjectGuid>{C09D0172-D18C-44F2-B819-24803B28F669}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -81,6 +81,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.DNOFlightV2.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DNOFlight.ino" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
