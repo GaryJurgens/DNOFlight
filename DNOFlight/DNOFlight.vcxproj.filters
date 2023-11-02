@@ -15,14 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DNOFlightV2.ino" />
+    <ClCompile Include="DNOFlight.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.DNOFlightV2.vsarduino.h">
+    <ClInclude Include="__vm\.DNOFlight.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DNOFlight.ino" />
   </ItemGroup>
 </Project>
